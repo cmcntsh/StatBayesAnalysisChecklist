@@ -5,11 +5,7 @@
 Height influences weight. Sex influences both height and weight. Weight is influenced by both height and sex.
 
 ```mermaid
-block-beta
-   columns 2
-   H[1,1]
-   W[1,2]
-   S[2,1]
+graph LR
    H-->W
    S-->H
    S-->W
