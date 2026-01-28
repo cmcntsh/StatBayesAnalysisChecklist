@@ -9,6 +9,7 @@ block
 columns 2
     H space W
     H-->W
+    S space
     S-->H
     S-->W
 
