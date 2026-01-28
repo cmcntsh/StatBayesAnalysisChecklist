@@ -7,9 +7,9 @@ Height influences weight. Sex influences both height and weight. Weight is influ
 ```mermaid
 block-beta
    columns 2
-   H[Row 1, Col 1]
-   W[Row 1, Col 2]
-   S[Row 2, Col 1]
+   H[1,1]
+   W[1,2]
+   S[2,1]
    H-->W
    S-->H
    S-->W
