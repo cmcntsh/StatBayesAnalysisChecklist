@@ -6,11 +6,8 @@ Height influences weight. Sex influences both height and weight. Weight is influ
 
 ```mermaid
 block
-columns 2
     H space W
     H-->W
-    S space
-    S-->H
-    S-->W
+    
 
 ```
