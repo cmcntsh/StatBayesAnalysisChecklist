@@ -11,31 +11,17 @@ graph LR
    S-->W
 
 ```
-    
-```mermaid
-graph TD;
-    A[Start Process] --> B{Check Data};
-    B --> C(Clean Data);
-    B --> D(Log Error);
-    C --> E[End Process];
-    D --> E;
-```
 
 ```mermaid
 graph TD
-    X --> C
-    direction BT
-        D --> X
-    D --> C
-    direction BT
-        Z-->C
-    
-
-```
-
-```mermaid
-graph TD
+    subgraph top [ ]
+        direction LR
+        H --- W
+    end
     S --> H
     S --> W
     H --> W
+    
+    %% Styling to hide the subgraph container
+    style top fill:none,stroke:none
 ```
