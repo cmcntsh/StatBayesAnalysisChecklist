@@ -13,7 +13,7 @@ graph LR
 ```
 
 ```mermaid
-graph TD
+graph LR
     H --> W
     H ~~~ S
     S --> H
