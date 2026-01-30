@@ -20,3 +20,12 @@ graph TD;
     C --> E[End Process];
     D --> E;
 ```
+
+```mermaid
+graph TD;
+  X --> C;
+  D --> X;
+  D --> C;
+  Z --> C;
+
+```
