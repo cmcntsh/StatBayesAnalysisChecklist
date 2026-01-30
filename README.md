@@ -12,3 +12,11 @@ graph LR
 
 ```
     
+```mermaid
+graph TD;
+    A[Start Process] --> B{Check Data};
+    B --> C(Clean Data);
+    B --> D(Log Error);
+    C --> E[End Process];
+    D --> E;
+```
