@@ -14,14 +14,8 @@ graph LR
 
 ```mermaid
 graph TD
-    subgraph top [ ]
-        direction LR
-        H --- W
-    end
+    H --> W
+    H ~~~ S
     S --> H
     S --> W
-    H --> W
-    
-    %% Styling to hide the subgraph container
-    style top fill:none,stroke:none
 ```
