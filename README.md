@@ -32,3 +32,10 @@ graph TD
     
 
 ```
+
+```mermaid
+graph TD
+    S --> H
+    S --> W
+    H --> W
+```
