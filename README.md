@@ -23,7 +23,6 @@ graph TD;
 
 ```mermaid
 graph TD;
-    columns 2
     X --> C;
     Z --> C;
     D --> X;
