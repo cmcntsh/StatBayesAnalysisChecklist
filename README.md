@@ -24,8 +24,7 @@ graph TD;
 ```mermaid
 graph TD
     X --> C
-    D --> X
-    D --> C
+    D --> X & D --> C
     
 
 ```
