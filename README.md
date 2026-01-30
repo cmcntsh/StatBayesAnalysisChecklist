@@ -25,8 +25,9 @@ graph TD;
 graph TD;
     columns 2
     X --> C;
+    Z --> C;
     D --> X;
     D --> C;
-    Z --> C;
+    
 
 ```
